@@ -33,7 +33,7 @@ public class BruteForce {
 
         // массив metricaValues будет содержать количество совпадений "коротких" слов для каждого сдвига (encryptionCode)
         int[] metricaValues = new int[maxCode];
-        for (int i = 0; i <= maxCode; i++) {
+        for (int i = 0; i < maxCode; i++) {
             metricaValues[i] = 0;
         }
 
